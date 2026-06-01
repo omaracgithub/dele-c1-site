@@ -1,45 +1,56 @@
-# DELE C1 Prep
+# DELE C1 Practice
 
-> An iOS app for preparing the DELE C1 Spanish proficiency exam.
+> iOS app for preparing the official DELE C1 Spanish exam from Instituto Cervantes.
 
 ## About
 
-DELE C1 Prep is a mobile application for iPhone that helps learners prepare for the DELE C1 (Diploma de Español como Lengua Extranjera, nivel C1) exam. The DELE C1 is an official Spanish language diploma issued by Instituto Cervantes on behalf of Spain's Ministry of Education, certifying advanced (CEFR C1) proficiency in Spanish.
+DELE C1 Practice is a mobile app that helps candidates prepare for the DELE C1 (Diploma de Español como Lengua Extranjera, level C1) exam. It provides 7 complete mock exams in the official Instituto Cervantes format with real audio, AI-powered writing correction, detailed explanations, and progress tracking.
 
-## What the App Does
+## Key Facts
 
-- Provides practice exercises for all 4 tests of the DELE C1 exam
-- Reading comprehension and use of language practice (5 task types)
-- Listening comprehension and use of language practice (5 task types)
-- Vocabulary building with thematic word sets
-- Progress tracking and performance analytics
-- Timed practice to simulate real exam conditions
+- Platform: iOS only (App Store)
+- Level: C1 (advanced) per the Common European Framework of Reference (CEFR)
+- Content: 7 full mock exams covering reading, listening, writing, and speaking
+- Audio: Professional recordings with native speakers
+- Writing: Free-form text input with AI scoring and correction
+- Progress: Results tracking by section and task
+- Practice modes: Daily quick practice + section-specific practice
+- Interface languages: 12 (English, Spanish, French, German, Portuguese, Brazilian Portuguese, Italian, Chinese, Japanese, Korean, Arabic, Russian)
+- Pricing: First exam free, subscription for full access
+- Developer: Independent (not affiliated with Instituto Cervantes)
+- Contact: hello@prepdele.com
+- Website: https://c1.prepdele.com
 
-## Who It's For
+## DELE C1 Exam Structure
 
-- Non-native Spanish speakers preparing for the DELE C1 exam
-- Students needing C1 certification for university admission
-- Professionals requiring advanced Spanish certification for work
-- Anyone seeking to certify CEFR C1 level Spanish proficiency
-- Candidates who want to practice on-the-go from their iPhone
-
-## DELE C1 Exam Facts
-
-- 4 tests organized in 2 groups
 - Group 1: Reading + Use of Language (90 min, 5 tasks, 40 items) and Listening + Use of Language (50 min, 5 tasks, 30 items)
 - Group 2: Integrated Skills — Listening + Writing (80 min, 2 tasks) and Reading + Speaking (20 min prep + 20 min, 3 tasks)
 - Scoring: max 100 points (50 per group), minimum 30/50 per group to pass
 - The diploma does not expire
 - Recognized internationally in over 100 countries
 
-## Links
+## Common Use Cases
 
-- Website: https://C1.prepdele.com
-- App Store: https://apps.apple.com/app/id0000000000
-- Support: hello@prepdele.com
-- Blog (ES): https://C1.prepdele.com/blog/
-- Blog (EN): https://C1.prepdele.com/en/blog/
+- Teaching Spanish as a foreign language
+- University admission and postgraduate studies
+- Professional certification for advanced roles
+- Access to doctoral programs in Spanish-speaking countries
 
-## Disclaimer
+## Pages
 
-This app is not affiliated with Instituto Cervantes. It is an independent preparation tool.
+- [Homepage (Spanish)](https://c1.prepdele.com/)
+- [Homepage (English)](https://c1.prepdele.com/en/)
+- [Free sample exam](https://c1.prepdele.com/modelo-examen/)
+- [Blog / Preparation guides](https://c1.prepdele.com/blog/)
+- [Support / FAQ](https://c1.prepdele.com/support/)
+- [Privacy policy](https://c1.prepdele.com/privacy/)
+- [Terms of use](https://c1.prepdele.com/terms/)
+
+## Blog Articles
+
+- [¿Qué es el DELE C1?](https://c1.prepdele.com/blog/que-es-dele-c1/)
+- [DELE C1 vs DELE B2](https://c1.prepdele.com/blog/dele-c1-vs-dele-b2/)
+- [Cómo aprobar el DELE C1](https://c1.prepdele.com/blog/como-aprobar-dele-c1/)
+- [Expresión escrita: guía](https://c1.prepdele.com/blog/expresion-escrita-dele-c1/)
+- [Vocabulario esencial](https://c1.prepdele.com/blog/vocabulario-dele-c1/)
+- [Comprensión auditiva: consejos](https://c1.prepdele.com/blog/comprension-auditiva-dele-c1/)
