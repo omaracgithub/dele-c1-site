@@ -61,6 +61,7 @@ a:hover { text-decoration: underline; }
   min-height: 44px;
   align-items: center;
   justify-content: center;
+  color: var(--primary);
 }
 .burger svg { display: block; }
 
