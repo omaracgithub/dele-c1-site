@@ -1,0 +1,45 @@
+# DELE C1 Prep
+
+> An iOS app for preparing the DELE C1 Spanish proficiency exam.
+
+## About
+
+DELE C1 Prep is a mobile application for iPhone that helps learners prepare for the DELE C1 (Diploma de Español como Lengua Extranjera, nivel C1) exam. The DELE C1 is an official Spanish language diploma issued by Instituto Cervantes on behalf of Spain's Ministry of Education, certifying advanced (CEFR C1) proficiency in Spanish.
+
+## What the App Does
+
+- Provides practice exercises for all 4 tests of the DELE C1 exam
+- Reading comprehension and use of language practice (5 task types)
+- Listening comprehension and use of language practice (5 task types)
+- Vocabulary building with thematic word sets
+- Progress tracking and performance analytics
+- Timed practice to simulate real exam conditions
+
+## Who It's For
+
+- Non-native Spanish speakers preparing for the DELE C1 exam
+- Students needing C1 certification for university admission
+- Professionals requiring advanced Spanish certification for work
+- Anyone seeking to certify CEFR C1 level Spanish proficiency
+- Candidates who want to practice on-the-go from their iPhone
+
+## DELE C1 Exam Facts
+
+- 4 tests organized in 2 groups
+- Group 1: Reading + Use of Language (90 min, 5 tasks, 40 items) and Listening + Use of Language (50 min, 5 tasks, 30 items)
+- Group 2: Integrated Skills — Listening + Writing (80 min, 2 tasks) and Reading + Speaking (20 min prep + 20 min, 3 tasks)
+- Scoring: max 100 points (50 per group), minimum 30/50 per group to pass
+- The diploma does not expire
+- Recognized internationally in over 100 countries
+
+## Links
+
+- Website: https://C1.prepdele.com
+- App Store: https://apps.apple.com/app/id0000000000
+- Support: hello@prepdele.com
+- Blog (ES): https://C1.prepdele.com/blog/
+- Blog (EN): https://C1.prepdele.com/en/blog/
+
+## Disclaimer
+
+This app is not affiliated with Instituto Cervantes. It is an independent preparation tool.
