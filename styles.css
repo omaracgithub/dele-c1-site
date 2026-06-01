@@ -67,7 +67,7 @@ a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .burger { display: inline-flex; }
   .site-header nav {
-    display: none;
+    display: none !important;
     position: absolute;
     top: 100%;
     left: 0;
@@ -80,7 +80,7 @@ a:hover { text-decoration: underline; }
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     z-index: 100;
   }
-  .site-header nav.open { display: flex; }
+  .site-header nav.open { display: flex !important; }
   .site-header nav a {
     padding: 0.75rem 0;
     font-size: 1rem;
