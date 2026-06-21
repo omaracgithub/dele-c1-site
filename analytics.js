@@ -1,10 +1,10 @@
-// GA4 CTA + Outbound Click Tracker for DELE C1 site
+// GA4 CTA + Outbound Click Tracker — b2.prepdele.com
 (function () {
   'use strict';
 
-  function trackEvent(eventName, params) {
+  function trackEvent(name, params) {
     if (typeof gtag === 'function') {
-      gtag('event', eventName, params);
+      gtag('event', name, params);
     }
   }
 
@@ -28,7 +28,7 @@
     if (link.hostname && link.hostname !== window.location.hostname) {
       trackEvent('outbound_click', {
         link_url: href,
-        link_text: link.textContent.trim().substring(0, 50),
+        link_domain: link.hostname,
         page_location: window.location.pathname
       });
     }
@@ -38,16 +38,23 @@
   var scrollMarks = [25, 50, 75, 100];
   var scrollFired = {};
 
-  window.addEventListener('scroll', function () {
-    var scrollPercent = Math.round(
-      (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
-    );
+  function checkScroll() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if (docHeight <= 0) return;
+    var percent = Math.round((scrollTop / docHeight) * 100);
 
     scrollMarks.forEach(function (mark) {
-      if (scrollPercent >= mark && !scrollFired[mark]) {
+      if (percent >= mark && !scrollFired[mark]) {
         scrollFired[mark] = true;
         trackEvent('scroll_depth', { percent: mark });
       }
     });
-  });
+  }
+
+  var scrollTimer;
+  window.addEventListener('scroll', function () {
+    clearTimeout(scrollTimer);
+    scrollTimer = setTimeout(checkScroll, 150);
+  }, { passive: true });
 })();
