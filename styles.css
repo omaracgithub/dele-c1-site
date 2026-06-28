@@ -294,15 +294,6 @@ article.post blockquote {
   color: var(--text-secondary);
   background: var(--surface);
 }
-article.post .cta-box {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-article.post .cta-box p { margin: 0 0 1rem; font-weight: 500; }
 
 article.post .related-articles {
   margin-top: 2.5rem;
@@ -366,48 +357,50 @@ html { -webkit-text-size-adjust: 100%; }
 }
 .ios-badge-text svg { opacity: 0.7; }
 
-/* Blog CTA Box — unified style */
+/* Blog CTA Box — unified style (high specificity to override article styles) */
 .cta-box,
-.article-cta {
-  background: linear-gradient(135deg, #1B4F72 0%, #154360 100%);
-  border: none;
-  border-radius: 16px;
-  padding: 2rem 1.5rem;
-  margin: 2.5rem 0;
-  text-align: center;
-  color: #fff;
-}
+.article-cta,
+main .article-cta,
+main.article .article-cta,
 .cta-box p,
-.article-cta p {
+.article-cta p,
+main .article-cta p,
+main.article .article-cta p,
   margin: 0 0 1.25rem;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #fff;
+  color: #fff !important;
 }
 .cta-box a,
 .article-cta a,
-.cta-box a:hover,
-.article-cta a:hover {
+main .article-cta a,
+main.article .article-cta a,
+article.post .cta-box a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: #fff;
-  color: #1B4F72;
+  background: #fff !important;
+  color: #1B4F72 !important;
   font-weight: 700;
   font-size: 1rem;
   padding: 0.85rem 1.75rem;
   border-radius: 50px;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: transform 0.15s, box-shadow 0.15s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .cta-box a:hover,
-.article-cta a:hover {
+.article-cta a:hover,
+main .article-cta a:hover,
+main.article .article-cta a:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 .cta-box a svg,
-.article-cta a svg {
+.article-cta a svg,
+main .article-cta a svg,
+main.article .article-cta a svg,
+article.post .cta-box a svg {
   width: 18px;
   height: 18px;
   fill: #1B4F72;
