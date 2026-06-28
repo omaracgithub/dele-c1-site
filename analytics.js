@@ -18,10 +18,12 @@
     if (href.includes('apps.apple.com') || href.includes('itunes.apple.com')) {
       var cta = link.getAttribute('data-cta') || 'app_store';
       track('CTA Click', {
+        page_hostname: window.location.hostname,
         cta: cta,
         link_url: href,
         link_text: link.textContent.trim().substring(0, 50),
-        page_location: window.location.pathname
+        page_path: window.location.pathname,
+        page_url: window.location.href
       });
     }
 
@@ -30,7 +32,8 @@
       track('Outbound Link: Click', {
         link_url: href,
         link_domain: link.hostname,
-        page_location: window.location.pathname
+        page_path: window.location.pathname,
+        page_url: window.location.href
       });
     }
   });
