@@ -365,3 +365,51 @@ html { -webkit-text-size-adjust: 100%; }
   margin-top: 0.75rem;
 }
 .ios-badge-text svg { opacity: 0.7; }
+
+/* Blog CTA Box — unified style */
+.cta-box,
+.article-cta {
+  background: linear-gradient(135deg, #1B4F72 0%, #154360 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  margin: 2.5rem 0;
+  text-align: center;
+  color: #fff;
+}
+.cta-box p,
+.article-cta p {
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.cta-box a,
+.article-cta a,
+.cta-box a:hover,
+.article-cta a:hover {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #1B4F72;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.cta-box a:hover,
+.article-cta a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.cta-box a svg,
+.article-cta a svg {
+  width: 18px;
+  height: 18px;
+  fill: #1B4F72;
+  flex-shrink: 0;
+}
