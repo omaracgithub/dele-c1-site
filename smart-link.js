@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  var APP_STORE_URL = 'https://apps.apple.com/app/id0000000000';
+  var APP_STORE_URL = 'https://apps.apple.com/app/id6772564355';
 
   function isIOS() {
     return /iPhone|iPad|iPod/.test(navigator.userAgent) ||

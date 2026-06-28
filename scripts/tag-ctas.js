@@ -18,7 +18,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SITE_ROOT = path.resolve(__dirname, '..');
-const APP_STORE_BASE = 'https://apps.apple.com/app/id0000000000';
+const APP_STORE_BASE = 'https://apps.apple.com/app/id6772564355';
 const DRY_RUN = process.argv.includes('--dry-run');
 
 const REQUIRED_PARAMS = {
@@ -108,7 +108,7 @@ function processFile(filePath) {
   let linkCount = 0;
 
   // Match App Store URLs (both with and without existing params)
-  const appStoreRegex = /https:\/\/apps\.apple\.com\/app\/id0000000000[^"'\s]*/g;
+  const appStoreRegex = /https:\/\/apps\.apple\.com\/app\/id6772564355[^"'\s]*/g;
 
   const newContent = content.replace(appStoreRegex, (match) => {
     linkCount++;
