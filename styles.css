@@ -1,6 +1,6 @@
 :root {
-  --primary: #1B4F72;
-  --accent: #2E86C1;
+  --primary: #1650A8;
+  --accent: #A8C0F0;
   --text: #1a1a1a;
   --text-secondary: #555;
   --bg: #fafafa;
@@ -364,7 +364,7 @@ html { -webkit-text-size-adjust: 100%; }
 main .article-cta,
 main.article .article-cta,
 article.post .cta-box {
-  background: linear-gradient(135deg, #1B4F72 0%, #154360 100%) !important;
+  background: linear-gradient(135deg, #1650A8 0%, #0D3A7A 100%) !important;
   border: none !important;
   border-radius: 16px;
   padding: 2rem 1.5rem;
@@ -391,7 +391,7 @@ article.post .cta-box a {
   align-items: center;
   gap: 8px;
   background: #fff !important;
-  color: #1B4F72 !important;
+  color: #1650A8 !important;
   font-weight: 700;
   font-size: 1rem;
   padding: 0.85rem 1.75rem;
@@ -414,6 +414,6 @@ main.article .article-cta a svg,
 article.post .cta-box a svg {
   width: 18px;
   height: 18px;
-  fill: #1B4F72;
+  fill: #1650A8;
   flex-shrink: 0;
 }
