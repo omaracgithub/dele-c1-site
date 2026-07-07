@@ -37,7 +37,7 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--text);
-  flex-shrink: 0;
+
 }
 .site-header nav {
   display: flex;
@@ -150,7 +150,7 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
   }
   .screenshots-scroll img {
     height: 340px;
-    flex-shrink: 0;
+  
     scroll-snap-align: center;
   }
 }
@@ -194,12 +194,14 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
   justify-content: center;
   width: 28px;
   height: 28px;
+  min-width: 28px;
+  flex-shrink: 0;
   border-radius: 50%;
   background: var(--primary);
   color: white;
   font-size: 0.8rem;
   font-weight: 700;
-  flex-shrink: 0;
+  aspect-ratio: 1;
 }
 @media (max-width: 600px) {
   .authenticity-strip { flex-direction: column; gap: 0.5rem; padding: 1rem; }
@@ -358,7 +360,10 @@ html { -webkit-text-size-adjust: 100%; }
 .ios-badge-text svg { opacity: 0.7; }
 
 
-/* Blog CTA Box */
+}
+
+
+/* Blog CTA Box — unified style */
 .cta-box,
 .article-cta,
 main .article-cta,
